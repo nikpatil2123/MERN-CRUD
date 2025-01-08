@@ -1,7 +1,7 @@
-# Employee Management System
+# BASIC CRUD OPERATION USING MERN STACK
 
 ## Overview
-Modern MERN stack application for employee management with CRUD operations, authentication, and responsive design.
+Modern MERN stack application for  CRUD operations, authentication, and responsive design.
 
 ## 🚀 Features
 - User Authentication
