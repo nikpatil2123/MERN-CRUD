@@ -43,3 +43,55 @@ PORT=8000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 ```
+## 🏃‍♂️ Running the Application
+
+```bash
+# Development mode
+npm run dev
+
+# Server only
+npm run server
+
+# Client only
+npm run client
+```
+
+## 📚 API Documentation
+Auth Endpoints
+```bash
+POST /api/auth/register - Register new user
+POST /api/auth/login    - User login
+```
+
+Employee Endpoints
+```bash
+GET    /api/employees     - Fetch all employees
+POST   /api/employees     - Create employee
+PUT    /api/employees/:id - Update employee
+DELETE /api/employees/:id - Delete employee
+```
+
+## 👥 Contributing
+
+1.Fork Repository
+2.Create feature branch
+```bash
+git checkout -b feature/YourFeature
+```
+3.Commit Chnages 
+```bash
+git commit -m 'Add YourFeature'
+```
+4.Push to Branch
+```bash
+git push origin feature/YourFeature
+```
+5.Open Pull Request
+
+## 👤 Author
+NIKHIL VIJAY PATIL
+
+##💬 Support
+Email: nikpatil2123@gmail.com
+
+
