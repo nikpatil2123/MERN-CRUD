@@ -34,3 +34,12 @@ npm install
 cd client
 npm install
 ```
+
+## 🔧 Environment Setup
+Create .env in server directory:
+
+```bash
+PORT=8000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
