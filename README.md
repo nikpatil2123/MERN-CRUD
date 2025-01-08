@@ -22,8 +22,8 @@ Modern MERN stack application for employee management with CRUD operations, auth
 
 1. Clone repository
 ```bash
-git clone https://github.com/yourusername/employee-management.git
-cd employee-management
+git clone https://github.com/nikpatil2123/MERN-CRUD.git
+cd MERN-CRUD
 ```
 2. Install dependencies
 ```bash
