@@ -24,3 +24,5 @@ Modern MERN stack application for employee management with CRUD operations, auth
 ```bash
 git clone https://github.com/yourusername/employee-management.git
 cd employee-management
+```
+2. Install dependencies
