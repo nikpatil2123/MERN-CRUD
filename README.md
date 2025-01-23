@@ -50,7 +50,7 @@ JWT_SECRET=your_secret_key
 npm run dev
 
 # Server only
-npm run server
+npm run start
 
 # Client only
 npm run client
