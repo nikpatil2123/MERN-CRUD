@@ -51,9 +51,6 @@ npm run dev
 
 # Server only
 npm run start
-
-# Client only
-npm run client
 ```
 
 ## 📚 API Documentation
