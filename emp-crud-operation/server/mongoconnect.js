@@ -19,7 +19,7 @@ app.use(bodyparser.urlencoded({extended:false}));
 mongoose.connect(URL,{useNewUrlParser:true,useUnifiedTopology:true})
     .then(()=>{
         
-        app.listen(port,()=>{
+        app.listen(PORT,()=>{
         console.log(`Server is running on http://localhost:${PORT}`);
     })}
         
