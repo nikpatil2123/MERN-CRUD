@@ -37,7 +37,7 @@ function User() {
 
   const deleteUser = async (userId) => {
     try {
-      await axios.delete(`http://localhost:8000/api/delete/${userId}`);
+      await axios.delete(`https://mern-crud-1huy.onrender.com/api/delete/${userId}`);
       setUsers((prevUsers)=>prevUsers.filter((user)=>user._id!==userId));
       toast.success("User Deleted Successfully!");
     } catch (error) {
