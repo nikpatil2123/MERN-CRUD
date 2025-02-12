@@ -8,7 +8,7 @@ dotenv.config();
 import route from "./routes/userroute.js";
 
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 const url = process.env.MONGOOSE_URL;
 
 // Updated CORS configuration
