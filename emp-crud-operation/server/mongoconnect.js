@@ -9,7 +9,7 @@ import route  from "./routes/userroute.js";
 
 const app=express();
 const port=process.env.PORT;
-const url=process.env.MONGOOSE_URL;
+const url=process.env.MONGOURL;
 app.use(cors());
 
 
